@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# displays Pid along the process name, processes that contain the wprd bash.
+# cannot use ps
+
+pgrep -l bash
